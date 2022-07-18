@@ -1,0 +1,125 @@
+.section-container {
+    color: black;
+    padding-top: 60px;
+}
+
+.content {
+    padding: 0;
+    margin: 0;
+    float: left;
+    padding-left: 15%;
+}
+
+.content-video {
+    transition: ease-in 200ms;
+    float: left;
+    width: 345px;
+    height: 350px;
+    margin-right: 1%;
+}
+
+.content-video-icon img{    
+    width: 100%;    
+}
+
+.content-video-details {
+    padding-top: 10px;
+
+}
+
+.content-details-top {
+    display: flex;
+}
+
+.video-description{
+    padding-left: 10px;
+}
+
+.video-description p{  
+    font-size: 10; 
+    font-weight: bolder;
+}
+
+.content-details-bottom{
+    display: flex;
+}
+
+.chan-img {
+    width: 40px;
+    height: 40px;
+}
+
+.chan-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+
+}
+
+.vid-chanell-name{
+    font-family:'Times New Roman', Times, serif;
+    color: #757575;
+    font-size: 12px;
+}
+
+.views-count, 
+.date-count{
+    font-family: 'Courier New', Courier, monospace;
+    color: #646464;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 900px){
+    .content-video{
+        width: 40%;
+        height: 300px;
+        transition: ease-in 200ms;
+    }
+    @media  screen and (max-width: 860px) {
+        .content-video{
+            width: 330px;
+            height: 300px;
+            transition: ease-in 200ms;
+        }
+        @media  screen and (max-width: 812px) {
+            .content-video{
+                width: 310px;
+                height: 300px;
+                transition: ease-in 200ms;
+            }
+        }@media  screen and (max-width: 760px) {
+            .content-video{
+                width: 270px;
+                height: 300px;
+                transition: ease-in 200ms;
+            }
+        }@media  screen and (max-width: 710px) {
+            .content-video{
+                width: 260px;
+                height: 300px;
+                transition: ease-in 200ms;
+            }
+        }@media  screen and (max-width: 643px) {
+            .content-video{
+                width: 240px;
+                height: 300px;
+                transition: ease-in 200ms;
+            }
+        }@media  screen and (max-width: 597px) {
+            .content-video{
+                width: 220px;
+                height: 300px;
+                transition: ease-in 200ms;
+            }
+        }@media  screen and (max-width: 546px) {
+            .content-video{
+                width: 380px;
+                height: 350px;
+                transition: ease-in 200ms;
+            }
+        }
+    }
+}

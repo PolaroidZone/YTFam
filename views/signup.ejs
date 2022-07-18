@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const pass1 = document.querySelector("")
+    </script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        section {
+            width: 100%;
+        }
+
+        .form-continer {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 470px;
+            border-radius: 20px;
+            box-shadow: 1px 4px 8px 2px rgb(170, 170, 170);
+        }
+
+        form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+        .form-logo h1 {
+            color: rgb(0, 153, 255);
+            font-size: 34px;
+            text-shadow: 1px 2px 7px rgb(175, 175, 175);
+        }
+
+        .form-logo, 
+        .form-title, 
+        .form-header-text,
+        .account-recover {
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .input-email , .input-password, .form-submit{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .input-email input , .input-password input {
+            width: 230px;
+            height: 30px;
+            border-radius: 10px;
+            border: solid 1px rgb(202, 202, 202);
+            padding-left: 10px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .form-submit button{
+            width: 240px;
+            height: 30px;
+            border-radius: 10px;
+            color: white;
+            background-color: rgb(0, 153, 255);
+            cursor: pointer;
+            border: none;
+        }
+
+        .form-footer {
+            padding-top: 20px;
+        }
+
+        .account-recover a{
+            margin-top: 5px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="login-container">
+            <div class="container-contents">
+                <div class="form-continer">
+                    <form action="/signup" method="post">
+                        <div class="form-header">
+                            <div class="form-logo">
+                                <h1>YTFam</h1>
+                            </div>
+                            <div class="form-title">
+                                <h1>Signup</h1>
+                            </div>
+                        </div>
+                        <div class="form-main">
+                            <div class="form-inputs">
+                                <div class="input-email">
+                                    <input type="name" name="name" id="" placeholder="Name" required>
+                                </div>
+                                <div class="input-email">
+                                    <input type="surname" name="surname" id="surname" placeholder="surname" required>
+                                </div>
+                                <div class="input-email">
+                                    <input type="email" name="email" id="email" placeholder="Email" required>
+                                </div>
+                                 <div class="input-password">
+                                    <input type="password" name="password" id="password" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <div class="form-submit">
+                                <button onclick="">Submit</button>
+                            </div>
+                        </div>
+                        <div class="form-footer">
+                            <div class="account-recover">
+                                <a href="">Forgot email/password?</a>
+                            </div>
+                            <div class="account-recover">
+                                <a href="/login">Have an account</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

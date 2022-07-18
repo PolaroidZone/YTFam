@@ -1,0 +1,206 @@
+.content {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.dashboard-header {
+    padding-top: 20px;
+    color: black;
+    border-bottom: solid 1px gray;
+}
+
+.dashheader-top {
+    height: fit-content;
+}
+
+.channel-icon {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.ch-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px 3px rgb(212, 212, 212);
+}
+
+.ch-icon img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.channel-name {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.dashheader-bottom {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dhB-left {
+    font-size: 25px;
+}
+
+.dhB-right {
+    padding-top: 5px;
+}
+
+.dhB-right button {
+    color: white;
+    background-color: rgb(231, 56, 56);
+    height: 40px;
+    width: 70px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 2px 2px 3px rgb(212, 212, 212);
+}
+
+.dashbored-container {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: inset 0px 2px 2px 3px rgb(212, 212, 212);
+    width: 100%;
+    color: black;
+    display: flex;
+}
+
+.upload-container {
+    border-radius: 20px;
+    height: 370px;
+    border: dotted 1.5px gray ;
+    width: 250px;
+    text-align: center;
+}
+
+
+.card-group{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    margin-top: 30%;
+}
+.card-group div {
+    padding: 10px;
+
+}
+
+.card-group img {
+    background-color: aqua;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.card-group button {
+    color: white;
+    background-color: rgb(231, 56, 56);
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 2px 2px 3px rgb(212, 212, 212);
+}
+
+/** upload form **/
+.drop-upload {
+    display: none;
+}
+.drop-upload.areaopen {
+    display: block;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 3px rgb(212, 212, 212);
+}
+
+.wraper form a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.wraper form {
+    color: rgb(0, 153, 255);
+    border: 2px dashed gray;
+    border-radius: 20px;
+    height: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px ;
+}
+
+section .row {
+    box-shadow: inset 0px 2px 2px 3px rgb(212, 212, 212);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .row i {
+    font-size: 30px;
+    color: white;
+}
+
+section .details span {
+    font-size: 15px;
+}
+
+.progress-area .row .Ccontents {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.progress-area .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.progress-bar .progress {
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    background: rgb(0, 153, 255);
+}
+.progress-area .progress-bar {
+    height: 6px;
+    width: 100%;
+    background: rgb(192, 230, 255);
+    margin-top: 4px;
+    border-radius: 10px;
+}
+
+.upload-area .row .Ccontents {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.upload-area .row .details{
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-area .details .size {
+    font-size: 11px;
+    color: gray;
+}
+
+
