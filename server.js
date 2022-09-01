@@ -123,4 +123,6 @@ function checkNotAuthenticated(req, res, next) {//stop user from signing in agai
 
 app.listen(3000)
 
+console.log('listening on http://localhost:3000')
+
 
