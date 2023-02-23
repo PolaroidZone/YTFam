@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"ytfam","dependencies":{"bcrypt":{"version":"5.0.1"},"ejs":{"version":"3.1.8"},"express-flash":{"version":"0.0.2"},"express-session":{"version":"1.17.3"},"express":{"version":"4.18.1"},"method-override":{"version":"3.0.0"},"passport-local":{"version":"1.0.0"},"passport":{"version":"0.6.0"}}}
